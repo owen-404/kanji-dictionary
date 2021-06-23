@@ -1,0 +1,110 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+background-image: linear-gradient(to top, rgba( 
+               101, 47, 62, 0.9), rgba( 
+                 47, 93, 101, 0.9)),
+	url('mtFuji.jpg');
+    background-size:cover;
+	margin-left:40px;
+	margin-left:40px;
+	
+	
+}
+.wrapper{
+	display:flex;
+	font-size:60px;
+	flex-direction:row;
+	justify-content:space-around;
+    align-items: center;
+    justify-content: center;
+	flex-wrap:wrap;
+	font-family:sans-serif;
+	
+	
+	
+}
+.h{
+	width:100%;
+	display:flex;
+    justify-content: center;
+	font-size:20px;
+	font-family:sans-serif;
+	transition: 0.2s ease-out;
+	padding-top:40px;
+	
+	
+
+}
+.userInput{
+	border-radius:5px 40px 5px 40px;
+	background-color:#f7e9e9;
+	width:300px;
+	height:40px;
+	font-size:20px;
+	box-shadow:5px green;
+	border:none;
+	box-shadow:2px 2px #c05959;
+	padding-left:10px;
+	padding-left:10px;
+	overflow-y:hidden;
+	color:#919191;
+}
+
+.btn{
+	background-color:#c05959;
+	color:#fff;
+	font-family:sans-serif;
+	border:1px solid #f7e9e9;
+	border-radius:20px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:15px;
+	
+}
+.btn:hover{
+	background-color:#b54545;
+}
+
+
+
+.left{
+	width:500px;
+	height:450px;
+	overflow:hidden;
+    justify-content: center;
+	text-align:center;
+	border:10px solid #fff;
+	border-radius:20px;
+	color:white;
+	text-shadow: 2px 2px #4b0c10;
+	box-shadow:2px 2px #4b0c10;
+	font-size:380px;
+	line-height:520px;
+	
+	
+}
+
+
+.right{
+	width:650px;
+	height:500px;
+	align-content:center;
+	overflow:hidden;
+    justify-content: center;
+	font-size:40px;
+	margin:20px;
+	padding-top:50px;
+	padding-left:40px;
+	color:#fff;
+	font-weight:50%;
+	text-shadow: 2px 2px #4b0c10;
+	line-height:100px;
+	
+	
+	
+}
